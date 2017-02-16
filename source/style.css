@@ -1,0 +1,145 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: auto;
+    overflow: auto;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+
+ul.sidenav li a:hover: {
+    background-color: #555;
+    color: white;
+}a {
+	color:#0252aa;
+	text-decoration:none;
+	cursor:pointer;
+}
+a:hover {
+	color:#000;
+}
+a img {
+	border:0;
+}
+.shell {
+	width:760px;
+	margin:0 auto;
+	padding-top:40px;}
+.gallery-t {
+	background:url(images/gallery-t.gif) no-repeat 0 top;
+	min-height:595px;
+	padding:14px 19px 0 26px;
+}
+.gallery-b {
+	width:760px;
+	height:14px;
+	background:url(images/gallery-b.png) no-repeat 0 0;
+}.gallery-holder {
+	padding-top:10px;
+}
+.gallery-content {
+	position:relative;
+	width:781px;
+	height:550px;
+}
+.gallery-content ul {
+	list-style-type:none;
+	height:100%;
+	overflow:hidden;
+	margin-right:-10px;
+}
+.gallery-content ul li {
+	position:relative;
+	float:left;
+	display:inline;
+	width:122px;
+	height:122px;
+	background:url(images/gallery-image-cover.gif) no-repeat 0 0;
+	margin:0 9px 10px 0;
+}
+.gallery-content ul li.last {
+	margin-right:0;
+}
+.gallery-content ul li a {
+	position:relative;
+	display:block;
+	width:111px;
+	height:111px;
+	margin:6px 0 0 6px;
+	z-index:1;
+}
+.gallery-content ul li .image-hover {
+	position:absolute;
+	top:6px;
+	left:6px;
+	width:106px;
+	height:111px;
+	display:none;
+	z-index:2;
+	background:url(images/hover.png) repeat 0 0;
+	line-height:15px;
+	padding-left:5px;
+}
+.gallery-content ul li .image-hover h5 {
+	font-size:11px;
+	font-weight:normal;
+	color:#fff;
+}
+.gallery-content ul li .image-hover h6 {
+	font-size:10px;
+	font-weight:normal;
+	color:#d1ab55;
+	margin-top:45px;
+}
+.gallery-content ul li .image-hover a {
+	font-size:10px;
+	color:#a7d64a;
+	width:75px;
+	height:15px;
+	margin:0;
+}
+.gallery-content ul li .image-hover a:hover {
+	color:#fff;
+}
+
+
+.footer {
+	width:834px;
+	margin:0 auto;
+	padding:10px 0;
+	font-size:10px;
+	clear:both;
+}
+.footer, .footer a {
+	color:#b5babe;
+	text-decoration:none;
+}
+.footer p {
+	margin:0;
+	padding:0;
+	line-height:normal;
+}
+.footer .lf {
+	margin-left:15px;
+	float:left;
+}
+.footer .rf {
+	margin-right:15px;
+	float:right;
+}
+
